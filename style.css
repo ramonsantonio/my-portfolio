@@ -205,3 +205,38 @@ section.sobre .flex {
     box-shadow: 0px 0px 8px #0096f3;
     transform: scale(1.05);
 }
+
+/* Portfolio */
+
+section.portfolio {
+    padding: 40px 4%;
+}
+
+.portfolio .flex {
+    gap: 40px;
+    margin: 40px;
+}
+
+.portfolio .portfolio-box {
+    border: 1px solid #0096f3;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    transition: .3s;
+}
+
+.portfolio .portfolio-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px #0096f3;
+}
+
+.portfolio .portfolio-box h3{
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.site {
+    width: 250px;
+    height: 150px;
+}
