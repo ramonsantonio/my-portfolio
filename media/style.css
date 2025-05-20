@@ -9,12 +9,26 @@
 
 
     /*  CABEÇALHO */
+
+    header {
+        padding: 60px 8%;
+    }
+
     .menu-desktop,
     .btn-contato {
         display: none;
     }
 
     /* Topo do Site */
+
+    section.topo-do-site {
+        padding: 60px 8%;
+    }
+
+    .img-topo-site img {
+        width: 300px;
+    }
+
     .topo-do-site .flex {
         flex-direction: column-reverse;
     }
@@ -30,11 +44,20 @@
 
     /* Especialidade */
 
+    section.especialidades {
+        padding: 60px 8%;
+    }
+
+
     section.especialidades .flex {
         gap: 10px;
     }
 
     /* Sobre */
+
+    section.sobre {
+        padding: 60px 8%;
+    }
 
     section.sobre .flex {
         flex-direction: column-reverse;
@@ -49,9 +72,17 @@
         text-align: center;
     }
 
+    .img-sobre img {
+        width: 300px;
+    }
+
     /* Portfolio */
 
+    section.portfolio {
+        padding: 60px 8%;
+    }
+
     .site {
-        width: 255px;
+        width: 250px;
     }
 }
