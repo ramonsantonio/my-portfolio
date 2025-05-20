@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+
+    /* Gerias */
+    .flex {
+        flex-direction: column;
+    }
+
+
+    /*  CABEÇALHO */
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /* Topo do Site */
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    section.topo-do-site .flex {
+        gap: 100px;
+    }
+
+    .topo-do-site h1 {
+        font-size: 20px;
+    }
+
+
+    /* Especialidade */
+
+    section.especialidades .flex {
+        gap: 10px;
+    }
+
+    /* Sobre */
+
+    section.sobre .flex {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 30px;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+
+    /* Portfolio */
+
+    .site {
+        width: 260px;
+    }
+}
