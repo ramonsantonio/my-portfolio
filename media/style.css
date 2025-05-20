@@ -68,8 +68,9 @@
         font-size: 30px;
     }
 
-    .btn-social {
+    .sobre .txt-sobre .btn-social {
         text-align: center;
+        color: black;
     }
 
     .img-sobre img {
@@ -80,6 +81,12 @@
 
     section.portfolio {
         padding: 60px 8%;
+    }
+
+    .portfolio .flex {
+        text-align: center;
+        gap: 60px;
+        margin: 20px;
     }
 
     .site {
