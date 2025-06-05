@@ -44,15 +44,25 @@ h2.titulo span {
 
 /* CABEÇALHO */
 
+
+#burguer {
+    display: none;
+}
+
+
+#mobile {
+    display: none;
+}
+
 header {
     padding: 40px 4%;
 }
 
-.logo  img {
+.logo img {
     width: 100px;
 }
 
-header > .interface {
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,7 +97,7 @@ header nav ul li {
 /* Topo do Site */
 
 section.topo-do-site {
-     padding: 40px 4%;
+    padding: 40px 4%;
 }
 
 section.topo-do-site .flex {
@@ -111,13 +121,13 @@ section.topo-do-site .flex {
     position: relative;
     width: 400px;
     animation: flutuar 2s ease-in-out infinite alternate
-    
 }
 
 @keyframes flutuar {
     0% {
         top: 0;
     }
+
     100% {
         top: 30px;
     }
@@ -231,7 +241,7 @@ section.portfolio {
     box-shadow: 0px 0px 10px #0096f3;
 }
 
-.portfolio .portfolio-box p{
+.portfolio .portfolio-box p {
     color: white;
     text-align: center;
     padding: 15px 0px;
