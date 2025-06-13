@@ -19,6 +19,27 @@
         display: none;
     }
 
+    #burguer {
+        color: white;
+        display: block;
+    }
+
+    #burguer:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        color: #0096f3;
+    }
+
+
+    #mobile {
+        display: flex;
+        
+    }
+
+    #mobile ul li a {
+        flex-direction: column;
+    }
+
     /* Topo do Site */
 
     section.topo-do-site {
